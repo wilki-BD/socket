@@ -1,0 +1,152 @@
+body {
+    background: #003f25;
+    color: #00ff96;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 98dvh;
+}
+
+#i-c-g {
+    background: #00170f ;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#con_den_men {
+    height: 20dvh;
+    width: 90dvw;
+    
+}
+
+#ing_nom {
+    
+    width: 90%;
+    height: 50%;
+    border-radius: 15px;
+    background: #355046 ;
+    color: #aaffdf;
+    outline-color: #00ffab;
+    border: solid 1px #00ffab;
+    padding: 0px 0px 0px 15px ;
+}
+
+
+#con_men {
+    background: #355046;
+    width: 90dvw;
+    height: 80dvh;
+    border-radius: 20px;
+    border: solid 2px #00cb78;
+    position: absolute;
+    display: block;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    
+}
+
+@keyframes aterrizar {
+    
+    0% {top: -90dvh;}
+    100% {top: 0dvh ;}
+    
+}
+
+/*-----*/
+
+#con_bar_men {
+    
+    background: transparent;
+    border: solid 2px #00cb78;
+    border-radius: 20px;
+    height: 15dvh;
+    width: 90dvw;
+    max-height: 15dvh;
+    max-width: 90dvw;
+    position: absolute;
+    bottom: 2.5dvh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+
+@keyframes aparecerAterrizar {
+    
+    0% {
+    left: -90dvw;
+    }
+    
+    100% {
+    left: 5dvw;
+    }
+    
+}
+
+
+#den_men {
+    height: 50%;
+    border-radius: 15px 0px 0px 15px;
+    background: #355046 ;
+    color: #aaffdf;
+    outline-color: #00ffab;
+    border: solid 1px #00ffab;
+    padding: 0px 0px 0px 15px ;
+    width: 65%;
+    
+}
+
+#env_men {
+    background: #568171;
+    background-image: url('./img/enviar.png') ;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 50%;
+    width: 20%;
+    border-radius: 0px 15px 15px 0px;
+    border: solid 1px #00ffab;
+    width: 20%;
+    
+    
+}
+
+#men {
+    background: #003f25 ;
+    width: 80%;
+    border: solid 1px  #95ffcc;
+    border-radius: 15px;
+    color: #bfffea;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    word-wrap: break-word;  
+    margin: 35px 20px 35px 20px;  
+}
+
+#nom_usu {
+    width: 100%;
+    height: 20%; 
+    font-weight: bold;  
+    font-size: 14px; 
+    padding: 2px 2px 2px 15px;
+    color: #6affcb;
+}
+
+
+#men_usu {
+    width: 90%;
+    height: 80%;
+    font-size: 20px;
+    padding: 15px;
+    overflow: hidden;
+    word-wrap: break-word;
+    
+}
+
